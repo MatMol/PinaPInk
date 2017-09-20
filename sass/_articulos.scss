@@ -1,0 +1,31 @@
+.articulos{
+	h2{
+		font-family: $font-sec;
+		font-size: 18px;
+		text-align: center;
+		text-transform: uppercase;
+		margin: 30px 0;
+		color: $color-nav;
+		letter-spacing: 2px;
+	}
+
+	.galeria{
+		display: flex;
+		justify-content: space-between;
+		margin: 10px 0;
+
+		article{
+			flex: 1;
+			img{
+				width: 90%;
+				opacity: 1;
+				-webkit-transition: .3s ease-in-out;
+				transition: .3s ease-in-out;
+
+				&:hover{
+					opacity: .8;
+				}
+			}
+		}
+	}
+}

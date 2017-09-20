@@ -1,0 +1,29 @@
+@media (max-width: 720px){
+	nav{
+		.info{
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 655px){
+	.welcome{
+		img{
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 600px){
+	nav{
+		.menu{
+			ul{
+				display: none;
+			}
+
+			button{
+				display: flex;
+			}
+		}
+	}
+}

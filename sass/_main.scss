@@ -1,0 +1,49 @@
+.welcome{
+	padding: 30px;
+	.contenedor{
+		display: flex;
+
+	img{
+		width: 90%;
+	}
+
+	.titulo{
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+
+		h1{
+			font-family: $font-pri;
+			font-size: 45px;
+			margin-bottom: 20px;
+			font-weight: $bold;
+			color: $color-nav;
+		}
+
+		span{
+			font-family: $font-pri;
+			font-size: 30px;
+			margin-bottom: 20px;
+			font-weight: $bold;
+			color: $color-nav;
+			}
+		}
+
+		button{
+			margin-top: 20px;
+			background: $color-principal;
+			border: 1px solid $color-principal;
+			padding: 10px;
+			width: 200px;
+			font-family: $font-pri;
+			font-size: 20px;
+			font-weight: $bold;
+			color: white;
+
+			&:hover{
+				background: $color-hover;
+				border-color: $color-hover;
+			} 
+		}	
+	}
+}

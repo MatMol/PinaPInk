@@ -1,0 +1,74 @@
+footer{
+	h2{
+		font-family: $font-sec;
+		font-weight: $bold;
+		font-size: 18px;
+		text-transform: uppercase;
+		padding: 15px 0;
+		color: $color-nav;
+		letter-spacing: 1px;
+	}
+
+	.contenedor{
+		display: flex;
+		justify-content: space-between;
+		border-top: 1px solid $color-nav;
+		padding: 20px 0;
+
+		article{
+			flex: 1;
+			input{
+				width: 90%;
+				height: 30px;
+			}
+		}
+	}
+
+	ul{
+		li{
+			padding: 10px 0;
+			font-family: $font-sec;
+			font-weight: $bold;
+			font-size: 15px;
+
+			a{
+				text-decoration: none;
+				color: $color-nav;
+
+				&:hover{
+					color: $color-principal;
+				}
+			}
+		}
+	}
+
+	.social{
+		ul{
+			display: flex;
+			align-items: center;
+
+			li{
+				margin: 0 10px;
+
+				a{
+					font-size: 30px;
+					text-decoration: none;
+					color: $color-nav;
+				}
+
+				span{
+					&:hover{
+						color: $color-principal;
+					}
+				}
+			}
+		}
+	}
+	
+
+	span{
+		display: flex;
+		justify-content: center;
+		color: $color-nav;
+	}
+}
